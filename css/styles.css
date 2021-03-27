@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;700;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* color selection */
+:root{
+    --white-color: #FFFFFF;
+    --orange-color: #FCA311;
+    --gray-color: #E5E5E5;
+    --blue-color:  #14213D;
+    --black-color: #000000;
+}
+
+/* Font */
+:root{
+    --first-font: 'Poppins', sans-serif;
+    --second-font: 'Noto Serif JP', serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: var(--first-font);
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h5{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+p{
+    font-size: 0.9rem;
+}
+
+hr{
+    border-color: gainsboro;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%
+}
+
+/* Landing Page */
+
+.header-div {
+    background: linear-gradient(76deg, rgba(47,75,136,1) 0%, rgba(221,190,123,1) 62%, rgba(246,165,33,1) 100%);
+    padding-top: 85px;
+}
+
+#profpic{
+    position: relative;
+    margin: 50px 10px 0px 700px;
+    width: 40%;
+    height: 40%;
+}
+
+#header-textholder {
+    font-family: var(--first-font);
+    top: 250px;
+    left: 150px;
+    position: absolute;
+    color: var(--white-color);
+}
+
+#my-name{
+    font-weight: 900 !important;
+}
+
+#hi{
+    color: var(--orange-color) !important;
+}
+
+#header-end {
+    position: relative;
+    float: left;
+    color: var(--white-color);
+}
+
+#header-end :hover{
+    color: var(--gray-color);
+    position: relative;
+    padding-top: 50px;
+}
+/* End of landing page */
+
+/* Brief description */
+
+#brief-sect{
+    background-color:  var(--white-color);
+    border-radius: 30px;
+    margin: 0px auto 10px auto;
+    padding: 50px 25px 20px 25px;
+    position: relative;
+    width: 80%;
+    
+}
+
+#brief-desc{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    width: 70%;
+}
+
+.desc-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+ #brief-desc p{
+     text-align: justify;
+ }
+
+ /* End of brief desc */
+
+ /* Education */
+ .education{
+     margin: 0px auto 50px auto;
+ }
+
+.card-sect{
+    width: 50%;
+    margin: auto;
+
+ }
+
+.ed-card {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    margin: 0 10px 10px 0;
+    display: inline-block;
+    padding: 10px 10px 15px 10px;
+    text-align: center;
+}
+
+ .logo-ed{
+     height: 50px;
+     border-radius: 0%;
+     margin: 5px 2px 10px 2px;
+ }
+/* End of education */
+
+/* experience */
+
+ .exp-row{
+    background-color: var(--white-color);
+    box-shadow: 5px 5px 20px 2px var(--gray-color);
+    line-height: 1.25;
+    margin: 50px auto 0px auto;
+    padding: 15px 0px 5px 20px; 
+    text-align: justify;
+    width: 100%;
+ }
+
+.exp-row h4{
+     font-size: 0.9rem;
+ }
+.exp-row p,li{
+    font-size: 0.9rem;
+    font-family: var(--second-font);
+}
+
+ .exp-logo{
+     width: 30%;
+     height: 30%;
+     margin-bottom: 10px;
+ }
+
+ /* End of Exp */
+
+ /* Skills */
+.skills-sect{
+    margin: 30px 0px 30px 0px;
+    padding-top: 30px;
+}
+
+.skill-card{
+    background-color: var(--blue-color);
+    margin: 0px 5px 5px 5px;
+    text-align: center;
+    padding: 10px 2px 0px 2px;
+    color: var(--white-color);
+}
+
+.skill-img{
+    width: 60px;
+    height: 50px;
+    margin: 2px auto 5px auto;
+
+}
+
+.skill-card-text-head{
+    font-family: var(--first-font);
+    font-weight: 700 !important;
+}
+
+
+/* End of skill */
+
+/* Porfolio */
+.port-card{
+    background-color: var(--white-color);
+    box-shadow: 0px 10px 20px 15px var(--gray-color);
+    margin: 5px 5px 5px 5px;
+    color: var(--black-color);
+    padding: 10px 5px 0px 5px;
+    text-align: center;
+}
+
+.port-card a{
+    color: var(--orange-color);
+    font-family: var(--first-font);
+    font-weight: 500;
+}
+
+/* End of portfolio */
+
+/* Language */
+.languages-sect{
+    margin: 30px 0px 30px 0px;
+    padding-top: 30px;
+}
+
+.languages-card{
+    background-color: var(--blue-color);
+    margin: 0px 5px 5px 5px;
+    text-align:left;
+    padding: 10px 20px 0px 20px;
+    color: var(--white-color);
+}
+
+.languages-card:hover{
+    background-color: var(--blue-color);
+    position: relative;
+    top: -10px;
+    color: var(--white-color);
+}
+
+/* End of lang */
+
+/* Activities */
+.act-card{
+    background-color: var(--gray-color);
+    color: var(--blue-color);
+    margin: 5px 5px 5px 5px;
+    padding: 10px 25px 0px 25px;
+    font-size: 0.9rem;
+}
+
+.act-card:hover{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+.act-img{
+    width: 100px;
+    height: 80px;
+    margin: 2px auto 15px auto;
+
+}
+
+/* End of Activities */
+.contact-sect{
+    margin: 30px 0px 30px 0px;
+    padding-top: 30px;
+}
+
+.contact-text-desc{
+    text-align: center;
+    color: var(--blue-color);
+}
+
+.contact-card{
+    margin: 5px 5px 5px 5px;
+    padding: 10px 5px 0px 5px;
+    text-align: center;
+}
+
+.btn-img{
+    width: 20%;
+    height: 40%;
+}
+
+.bottom-container {
+    margin: 50px auto 0px auto;
+    background-color: var(--orange-color);
+    padding-bottom: 20px;
+    padding-top: 20px
+  }
+
+.link-div{
+      margin: auto;
+      text-align: center;
+  }
+.footer-link{
+    padding-top: 10px;
+    color: var(--white-color);
+  }
+  
+  .footer-link:hover{
+      color: var(--blue-color);
+  }
+
+  .copyright{
+    color: var(--white-color);
+    margin: 20px auto 0 auto;
+    text-align: center;
+  }
+
+ @media (max-width: 1235px){
+    #profpic{
+        width: 45%;
+        height:45%;
+        margin: 10px 10px 0px 350px;
+    }
+
+    #header-textholder{
+        margin:-150px 50px 20px -90px;
+    }
+
+    #my-name, #short-desc{
+        font-size: 1.5rem;
+    }
+
+    #brief-sect{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 480px){
+    #profpic{
+        width: 70%;
+        height:70%;
+        margin: 100px 10px 0px 90px;
+    }
+
+    #header-textholder{
+        position: absolute;
+        float: none;
+        margin: -150px 0px 0px -100px;
+        font-size: 1rem !important;
+    }
+
+    #my-name, #short-desc{
+        font-weight: 700 !important;
+        font-size: 1.2rem !important;
+    }
+
+    #header-end{
+        font-size: 0.9rem;
+    }
+
+    #brief-sect{
+        width: 100%;
+    }
+
+    .table-inner-title, .table-inner-title-2{
+        font-size:0.9rem;
+    }
+
+    .exp-sect p,li{
+        font-size:0.75rem;
+    }
+}
